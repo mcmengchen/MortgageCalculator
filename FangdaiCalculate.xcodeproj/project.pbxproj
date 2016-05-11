@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC4714A1CE32A7B007EDFD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC471491CE32A7B007EDFD8 /* AppDelegate.swift */; };
+		3DC4714F1CE32A7B007EDFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC4714D1CE32A7B007EDFD8 /* Main.storyboard */; };
+		3DC471511CE32A7B007EDFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC471501CE32A7B007EDFD8 /* Assets.xcassets */; };
+		3DC471541CE32A7B007EDFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC471521CE32A7B007EDFD8 /* LaunchScreen.storyboard */; };
+		3DC4715F1CE32A7B007EDFD8 /* FangdaiCalculateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4715E1CE32A7B007EDFD8 /* FangdaiCalculateTests.swift */; };
+		3DC4716A1CE32A7B007EDFD8 /* FangdaiCalculateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC471691CE32A7B007EDFD8 /* FangdaiCalculateUITests.swift */; };
+		3DC4717C1CE32DB9007EDFD8 /* AccumulationFundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4717B1CE32DB9007EDFD8 /* AccumulationFundController.swift */; };
+		3DC4717E1CE32DC7007EDFD8 /* BusinessFundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4717D1CE32DC7007EDFD8 /* BusinessFundController.swift */; };
+		3DC471811CE33067007EDFD8 /* FundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4717F1CE33067007EDFD8 /* FundCell.swift */; };
+		3DC471821CE33067007EDFD8 /* FundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC471801CE33067007EDFD8 /* FundCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC4715B1CE32A7B007EDFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC4713E1CE32A7B007EDFD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC471451CE32A7B007EDFD8;
+			remoteInfo = FangdaiCalculate;
+		};
+		3DC471661CE32A7B007EDFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC4713E1CE32A7B007EDFD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC471451CE32A7B007EDFD8;
+			remoteInfo = FangdaiCalculate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC471461CE32A7B007EDFD8 /* FangdaiCalculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangdaiCalculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC471491CE32A7B007EDFD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DC4714E1CE32A7B007EDFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC471501CE32A7B007EDFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC471531CE32A7B007EDFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DC471551CE32A7B007EDFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC4715A1CE32A7B007EDFD8 /* FangdaiCalculateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangdaiCalculateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC4715E1CE32A7B007EDFD8 /* FangdaiCalculateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FangdaiCalculateTests.swift; sourceTree = "<group>"; };
+		3DC471601CE32A7B007EDFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC471651CE32A7B007EDFD8 /* FangdaiCalculateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangdaiCalculateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC471691CE32A7B007EDFD8 /* FangdaiCalculateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FangdaiCalculateUITests.swift; sourceTree = "<group>"; };
+		3DC4716B1CE32A7B007EDFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC4717B1CE32DB9007EDFD8 /* AccumulationFundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulationFundController.swift; sourceTree = "<group>"; };
+		3DC4717D1CE32DC7007EDFD8 /* BusinessFundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessFundController.swift; sourceTree = "<group>"; };
+		3DC4717F1CE33067007EDFD8 /* FundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundCell.swift; sourceTree = "<group>"; };
+		3DC471801CE33067007EDFD8 /* FundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC471431CE32A7B007EDFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471571CE32A7B007EDFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471621CE32A7B007EDFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC4713D1CE32A7B007EDFD8 = {
+			isa = PBXGroup;
+			children = (
+				3DC471481CE32A7B007EDFD8 /* FangdaiCalculate */,
+				3DC4715D1CE32A7B007EDFD8 /* FangdaiCalculateTests */,
+				3DC471681CE32A7B007EDFD8 /* FangdaiCalculateUITests */,
+				3DC471471CE32A7B007EDFD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC471471CE32A7B007EDFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC471461CE32A7B007EDFD8 /* FangdaiCalculate.app */,
+				3DC4715A1CE32A7B007EDFD8 /* FangdaiCalculateTests.xctest */,
+				3DC471651CE32A7B007EDFD8 /* FangdaiCalculateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC471481CE32A7B007EDFD8 /* FangdaiCalculate */ = {
+			isa = PBXGroup;
+			children = (
+				3DC471491CE32A7B007EDFD8 /* AppDelegate.swift */,
+				3DC4717B1CE32DB9007EDFD8 /* AccumulationFundController.swift */,
+				3DC4717D1CE32DC7007EDFD8 /* BusinessFundController.swift */,
+				3DC4717F1CE33067007EDFD8 /* FundCell.swift */,
+				3DC471801CE33067007EDFD8 /* FundCell.xib */,
+				3DC4714D1CE32A7B007EDFD8 /* Main.storyboard */,
+				3DC471501CE32A7B007EDFD8 /* Assets.xcassets */,
+				3DC471521CE32A7B007EDFD8 /* LaunchScreen.storyboard */,
+				3DC471551CE32A7B007EDFD8 /* Info.plist */,
+			);
+			path = FangdaiCalculate;
+			sourceTree = "<group>";
+		};
+		3DC4715D1CE32A7B007EDFD8 /* FangdaiCalculateTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC4715E1CE32A7B007EDFD8 /* FangdaiCalculateTests.swift */,
+				3DC471601CE32A7B007EDFD8 /* Info.plist */,
+			);
+			path = FangdaiCalculateTests;
+			sourceTree = "<group>";
+		};
+		3DC471681CE32A7B007EDFD8 /* FangdaiCalculateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC471691CE32A7B007EDFD8 /* FangdaiCalculateUITests.swift */,
+				3DC4716B1CE32A7B007EDFD8 /* Info.plist */,
+			);
+			path = FangdaiCalculateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC471451CE32A7B007EDFD8 /* FangdaiCalculate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC4716E1CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculate" */;
+			buildPhases = (
+				3DC471421CE32A7B007EDFD8 /* Sources */,
+				3DC471431CE32A7B007EDFD8 /* Frameworks */,
+				3DC471441CE32A7B007EDFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FangdaiCalculate;
+			productName = FangdaiCalculate;
+			productReference = 3DC471461CE32A7B007EDFD8 /* FangdaiCalculate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC471591CE32A7B007EDFD8 /* FangdaiCalculateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC471711CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculateTests" */;
+			buildPhases = (
+				3DC471561CE32A7B007EDFD8 /* Sources */,
+				3DC471571CE32A7B007EDFD8 /* Frameworks */,
+				3DC471581CE32A7B007EDFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC4715C1CE32A7B007EDFD8 /* PBXTargetDependency */,
+			);
+			name = FangdaiCalculateTests;
+			productName = FangdaiCalculateTests;
+			productReference = 3DC4715A1CE32A7B007EDFD8 /* FangdaiCalculateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC471641CE32A7B007EDFD8 /* FangdaiCalculateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC471741CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculateUITests" */;
+			buildPhases = (
+				3DC471611CE32A7B007EDFD8 /* Sources */,
+				3DC471621CE32A7B007EDFD8 /* Frameworks */,
+				3DC471631CE32A7B007EDFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC471671CE32A7B007EDFD8 /* PBXTargetDependency */,
+			);
+			name = FangdaiCalculateUITests;
+			productName = FangdaiCalculateUITests;
+			productReference = 3DC471651CE32A7B007EDFD8 /* FangdaiCalculateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC4713E1CE32A7B007EDFD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Roobo;
+				TargetAttributes = {
+					3DC471451CE32A7B007EDFD8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3DC471591CE32A7B007EDFD8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3DC471451CE32A7B007EDFD8;
+					};
+					3DC471641CE32A7B007EDFD8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3DC471451CE32A7B007EDFD8;
+					};
+				};
+			};
+			buildConfigurationList = 3DC471411CE32A7B007EDFD8 /* Build configuration list for PBXProject "FangdaiCalculate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC4713D1CE32A7B007EDFD8;
+			productRefGroup = 3DC471471CE32A7B007EDFD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC471451CE32A7B007EDFD8 /* FangdaiCalculate */,
+				3DC471591CE32A7B007EDFD8 /* FangdaiCalculateTests */,
+				3DC471641CE32A7B007EDFD8 /* FangdaiCalculateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC471441CE32A7B007EDFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC471541CE32A7B007EDFD8 /* LaunchScreen.storyboard in Resources */,
+				3DC471511CE32A7B007EDFD8 /* Assets.xcassets in Resources */,
+				3DC471821CE33067007EDFD8 /* FundCell.xib in Resources */,
+				3DC4714F1CE32A7B007EDFD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471581CE32A7B007EDFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471631CE32A7B007EDFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC471421CE32A7B007EDFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC4714A1CE32A7B007EDFD8 /* AppDelegate.swift in Sources */,
+				3DC4717C1CE32DB9007EDFD8 /* AccumulationFundController.swift in Sources */,
+				3DC471811CE33067007EDFD8 /* FundCell.swift in Sources */,
+				3DC4717E1CE32DC7007EDFD8 /* BusinessFundController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471561CE32A7B007EDFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC4715F1CE32A7B007EDFD8 /* FangdaiCalculateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC471611CE32A7B007EDFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC4716A1CE32A7B007EDFD8 /* FangdaiCalculateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC4715C1CE32A7B007EDFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC471451CE32A7B007EDFD8 /* FangdaiCalculate */;
+			targetProxy = 3DC4715B1CE32A7B007EDFD8 /* PBXContainerItemProxy */;
+		};
+		3DC471671CE32A7B007EDFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC471451CE32A7B007EDFD8 /* FangdaiCalculate */;
+			targetProxy = 3DC471661CE32A7B007EDFD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC4714D1CE32A7B007EDFD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC4714E1CE32A7B007EDFD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC471521CE32A7B007EDFD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC471531CE32A7B007EDFD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC4716C1CE32A7B007EDFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC4716D1CE32A7B007EDFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC4716F1CE32A7B007EDFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FangdaiCalculate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DC471701CE32A7B007EDFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FangdaiCalculate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DC471721CE32A7B007EDFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FangdaiCalculateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FangdaiCalculate.app/FangdaiCalculate";
+			};
+			name = Debug;
+		};
+		3DC471731CE32A7B007EDFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FangdaiCalculateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FangdaiCalculate.app/FangdaiCalculate";
+			};
+			name = Release;
+		};
+		3DC471751CE32A7B007EDFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FangdaiCalculateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FangdaiCalculate;
+			};
+			name = Debug;
+		};
+		3DC471761CE32A7B007EDFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FangdaiCalculateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nil.FangdaiCalculateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FangdaiCalculate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC471411CE32A7B007EDFD8 /* Build configuration list for PBXProject "FangdaiCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC4716C1CE32A7B007EDFD8 /* Debug */,
+				3DC4716D1CE32A7B007EDFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC4716E1CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC4716F1CE32A7B007EDFD8 /* Debug */,
+				3DC471701CE32A7B007EDFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC471711CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC471721CE32A7B007EDFD8 /* Debug */,
+				3DC471731CE32A7B007EDFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC471741CE32A7B007EDFD8 /* Build configuration list for PBXNativeTarget "FangdaiCalculateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC471751CE32A7B007EDFD8 /* Debug */,
+				3DC471761CE32A7B007EDFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC4713E1CE32A7B007EDFD8 /* Project object */;
+}

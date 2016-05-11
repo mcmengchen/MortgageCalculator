@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ubf-f4-UFx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--商业-->
+        <scene sceneID="KO0-Me-QgM">
+            <objects>
+                <viewController id="HvC-np-CUU" customClass="BusinessFundController" customModule="FangdaiCalculate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s5X-Jy-uN2"/>
+                        <viewControllerLayoutGuide type="bottom" id="a41-6v-5vp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ero-KN-EnI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="商业" id="FZn-ej-7ZN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRx-MO-Ytj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="1011"/>
+        </scene>
+        <!--公积金-->
+        <scene sceneID="CZY-Mq-5nk">
+            <objects>
+                <viewController id="HBj-pK-MdY" customClass="AccumulationFundController" customModule="FangdaiCalculate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y6t-Zg-jQX"/>
+                        <viewControllerLayoutGuide type="bottom" id="kwY-qr-e6F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JwT-xi-Goy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="公积金" id="Eil-hL-eK7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BlL-JJ-s38" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="249"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3GB-8K-ZdL">
+            <objects>
+                <tabBarController id="ubf-f4-UFx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fbs-Gq-93m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ghQ-ZF-SKo" kind="relationship" relationship="viewControllers" id="fuf-fe-Gg4"/>
+                        <segue destination="4V1-rd-cGW" kind="relationship" relationship="viewControllers" id="OGS-6Q-QKU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1k-GK-4i3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-898" y="587"/>
+        </scene>
+        <!--公积金贷款-->
+        <scene sceneID="5ta-9Z-W0A">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ghQ-ZF-SKo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="公积金贷款" id="uzR-1M-uad"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oCA-KV-YuW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HBj-pK-MdY" kind="relationship" relationship="rootViewController" id="x1B-jf-Twn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fx8-ZA-WNX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="249"/>
+        </scene>
+        <!--商业贷款-->
+        <scene sceneID="nPn-AC-XIz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4V1-rd-cGW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="商业贷款" id="g1L-Wl-rPF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aDL-DT-k5n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HvC-np-CUU" kind="relationship" relationship="rootViewController" id="Ulx-mJ-KUD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EtO-KC-RbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="999"/>
+        </scene>
+    </scenes>
+</document>

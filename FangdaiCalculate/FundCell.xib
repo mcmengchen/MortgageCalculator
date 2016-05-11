@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="KGk-i7-Jjw" customClass="FundCell" customModule="FangdaiCalculate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="466" height="207"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnT-1p-cgk" userLabel="标题">
+                        <rect key="frame" x="5" y="0.0" width="228" height="207"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lo1-0k-IVQ" userLabel="输入框">
+                        <rect key="frame" x="243" y="5" width="218" height="197"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FHt-3g-eKf" userLabel="选择器">
+                        <rect key="frame" x="283" y="89" width="133" height="29"/>
+                        <segments>
+                            <segment title="等额本息"/>
+                            <segment title="等额本金"/>
+                        </segments>
+                    </segmentedControl>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ww4-AY-KC8" userLabel="详情">
+                        <rect key="frame" x="238" y="5" width="223" height="198"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LnT-1p-cgk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Cdv-mB-lgD"/>
+                    <constraint firstAttribute="trailing" secondItem="lo1-0k-IVQ" secondAttribute="trailing" constant="5" id="DPs-es-AvF"/>
+                    <constraint firstAttribute="bottom" secondItem="LnT-1p-cgk" secondAttribute="bottom" id="G1y-Mt-vDE"/>
+                    <constraint firstItem="FHt-3g-eKf" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.5" id="JTn-NE-d0I"/>
+                    <constraint firstAttribute="trailing" secondItem="Ww4-AY-KC8" secondAttribute="trailing" constant="5" id="LXV-xd-xTG"/>
+                    <constraint firstItem="Ww4-AY-KC8" firstAttribute="leading" secondItem="LnT-1p-cgk" secondAttribute="trailing" constant="5" id="NFi-oX-2Rd"/>
+                    <constraint firstItem="LnT-1p-cgk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="QLJ-uE-LuT"/>
+                    <constraint firstItem="lo1-0k-IVQ" firstAttribute="leading" secondItem="LnT-1p-cgk" secondAttribute="trailing" constant="10" id="b2K-gf-G0P"/>
+                    <constraint firstItem="FHt-3g-eKf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bfQ-jt-lsf"/>
+                    <constraint firstItem="Ww4-AY-KC8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="do4-42-bNq"/>
+                    <constraint firstAttribute="centerXWithinMargins" secondItem="LnT-1p-cgk" secondAttribute="trailing" id="hCb-rN-m92"/>
+                    <constraint firstItem="lo1-0k-IVQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="j0S-qA-Bvi"/>
+                    <constraint firstAttribute="bottom" secondItem="lo1-0k-IVQ" secondAttribute="bottom" constant="5" id="vdk-AR-Sfx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ww4-AY-KC8" secondAttribute="bottom" constant="5" id="GIT-ui-V1y"/>
+            </constraints>
+            <connections>
+                <outlet property="detailLab" destination="Ww4-AY-KC8" id="thx-2k-9cM"/>
+                <outlet property="swi" destination="FHt-3g-eKf" id="jv1-mG-K29"/>
+                <outlet property="textF" destination="lo1-0k-IVQ" id="Ozv-nU-ERa"/>
+                <outlet property="textLab" destination="LnT-1p-cgk" id="DZx-O8-SlD"/>
+            </connections>
+            <point key="canvasLocation" x="525" y="336"/>
+        </tableViewCell>
+    </objects>
+</document>
